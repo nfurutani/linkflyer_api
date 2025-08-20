@@ -205,3 +205,88 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==================================================
+# PROJECT SPECIFIC ADDITIONS
+# ==================================================
+
+# Environment variables and secrets
+.env.local
+.env.*.local
+*.env
+
+# Google Cloud credentials and API keys
+credential/
+credentials/
+*-credentials.json
+*-key.json
+service-account*.json
+linkflyer-*.json
+
+# Cache directories (キャッシュフォルダー)
+cache/
+cache_*/
+cache_dev/
+cache_staging/
+cache_prod/
+.cache/
+*.cache
+bigquery_cache/
+
+# API keys and secrets
+api_keys/
+secrets/
+keys/
+
+# Test data and temporary images
+assets/
+test_images/
+temp_images/
+downloaded_images/
+
+# Output and results
+output/
+results/
+exports/
+processed/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+bq_data/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Debug and scratch files
+debug_*.py
+scratch/
+test_*.py
+playground.py
+
+# Logs
+logs/
+log/
