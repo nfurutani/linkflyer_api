@@ -777,7 +777,7 @@ if __name__ == "__main__":
     # img = "/Users/nf/dev/Python/linkflyer_api/assets/iori_asano-17885859204203484.jpg"
     # img = "/Users/nf/dev/Python/linkflyer_api/assets/vent_kim.png"
     # img = "/Users/nf/dev/Python/linkflyer_api/assets/secondhandrecords.png"
-    img = "/Users/nf/dev/Python/linkflyer_api/assets/lebain.png"
+    # img = "/Users/nf/dev/Python/linkflyer_api/assets/lebain.png"
 
     
     # URL example
@@ -786,9 +786,14 @@ if __name__ == "__main__":
     # img = "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vNGUwOGRkMTk0YTUzZTNmMmVjMWU1MzlhNTM5NWNlZDI0NmNiMGUxNy5qcGc="
     # img = "https://circus-tokyo.jp/wp-content/uploads/2025/08/20250821.png"
     # img = "http://www.goodroombk.com/dev/wp-content/uploads/2025/07/Aug22-web.jpg"
+    img = "https://media.zaiko.io/zaiko/w_3600/1_48tgibcnsea33ktddwo7l"
     
-    
-    ip = "63.116.61.253" #"60.65.238.71" # "123.192.101.168" 
+    ip_list={
+        'newyork':'63.116.61.253',
+        'tokyo':'60.65.238.71',
+        'taipei':'123.192.101.168',
+    }
+    ip = ip_list['tokyo']
 
     # ------------------------------------------------------------
     # データ取得 / gemini
